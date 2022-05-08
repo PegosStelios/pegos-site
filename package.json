@@ -1,28 +1,30 @@
 {
-    "name": "pegos-site",
-    "version": "1.0.0",
-    "description": "Source code to my personal website",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/PegosStelios/pegos-site.git"
-    },
-    "keywords": [
-        "pegos",
-        "site",
-        "html",
-        "css"
-    ],
-    "author": "Pegos",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/PegosStelios/pegos-site/issues"
-    },
-    "homepage": "https://github.com/PegosStelios/pegos-site#readme",
-    "dependencies": {
-        "vue": "^1.0.28-csp"
-    }
+  "name": "pegos-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-class-component": "^8.0.0-0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "typescript": "~4.5.5"
+  }
 }
